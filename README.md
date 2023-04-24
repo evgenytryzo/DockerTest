@@ -2,5 +2,4 @@
 
 ##My-app for testing 'Docker', 'Yarn', 'React'
 
-* [Link to pages](https://evgenytryzo.github.io/dockerTest/)
-
+* [Link to DockerHub](https://hub.docker.com/repository/docker/tryzo/my-app/general/)
