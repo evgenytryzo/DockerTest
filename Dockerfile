@@ -6,8 +6,8 @@ EXPOSE 4000
 
 COPY package*.json ./
 
-RUN npm install
+RUN yarn install
 
 COPY . .
 
-CMD ["npm", "run", "start"]
+CMD ["yarn", "run", "start"]
