@@ -4,8 +4,10 @@ services:
   app:
     tty: true
     stdin_open: true
-    image: my-app
+    image: lol
     container_name: react-app
+    volumes:
+      - /home/tryzo/Desktop/dev/my-app/src:/src
     ports:
       - "4000:4000"
     restart: unless-stopped
